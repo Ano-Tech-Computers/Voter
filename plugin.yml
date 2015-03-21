@@ -1,0 +1,12 @@
+name: Voter
+main: no.atc.floyd.bukkit.voter.Voter
+version: 1.02
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+description: >
+             This plugin allows players to cast votes for ops.
+commands:
+  vote:
+    description: Cast or show votes
+    usage: /<command> op <player> yes|no|cancel
+
