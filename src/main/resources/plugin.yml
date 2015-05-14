@@ -1,0 +1,11 @@
+name: "${project.name}"
+main: no.atc.floyd.bukkit.voter.Voter
+version: "${project.version}"
+website: "${project.url}"
+author: FloydATC
+description: "${project.description}"
+
+commands:
+  vote:
+    description: Cast or show votes
+    usage: /<command> op <player> yes|no|cancel
